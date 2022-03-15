@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0%;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+:root{
+    ---fonnt-padrao: 'Hubballi', arial;
+}
+
+
+header{
+    height: auto;
+    background-color: black;
+    
+}
+header > div > h1{
+    display:block;
+    color: #DFB600;
+    font-family: var(---fonnt-padrao);
+    text-align: left;
+
+}
+.quadro{
+    display:  ;
+    margin-right: 12px;
+}
+span{
+    color: #000000;
+    
+}
+nav{
+    text-align: right;
+}
+nav > a{
+    color: #F23535;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: 'Hubballi', cursive;
+
+}
+body{
+    background-image: linear-gradient(to right, #000000, #DFB600, #000000);
+}
+main{
+    background-color: white;
+    height: auto;
+    width: 900px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 8px;
+    
+}
