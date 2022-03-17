@@ -6,6 +6,7 @@
 
 :root{
     ---fonnt-padrao: 'Hubballi', arial;
+    ---cor-letra: #ff9100;
 }
 body{
     background-image: linear-gradient(to bottom, black, darkred);
@@ -21,15 +22,21 @@ header > img{
 }
 header > h1{
     font-variant: small-caps;
-    color: rgb(255, 145, 0);
+    color: var(---cor-letra);
     text-align: center;
 }
 .quadro{
     display: inline-block;
     padding-right: 8px;
+    
+    
+}
+.imagem{
+    height: 200px;
+    width: 320px;
 }
 span{
-    color: rgb(255, 145, 0);
+    color: var(---cor-letra);
     text-align: left;
     
 }
@@ -37,13 +44,16 @@ span{
     text-align: center;
     margin-top: 15px;
 }
-nav{
-    background-color: aqua;
-}
-li #escondida{
-    display: none;
+nav > a{
+    text-decoration: none;
+    color: var(---cor-letra);
+    padding-right: 3px;
+    font-variant: small-caps;
 }
 
-#contas:hover > #escondida{
-    display: block;
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.172);
+    border-radius: 8px;
+    color: #f2ff00;
 }
+.comprar
