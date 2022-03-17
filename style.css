@@ -7,17 +7,9 @@
 :root{
     ---fonnt-padrao: 'Hubballi', arial;
 }
-main{
-     height: auto;
-     width: 80vh;
-     margin: auto;
-     background-color: black;
-     padding: 20px;
-     margin-top: 10px;
-     border-radius: 10px;
-}
 body{
     background-image: linear-gradient(to bottom, black, darkred);
+    background-attachment: fixed;
 }
 header{
     background-color: black;
@@ -38,5 +30,20 @@ header > h1{
 }
 span{
     color: rgb(255, 145, 0);
+    text-align: left;
     
+}
+.bloco{
+    text-align: center;
+    margin-top: 15px;
+}
+nav{
+    background-color: aqua;
+}
+li #escondida{
+    display: none;
+}
+
+#contas:hover > #escondida{
+    display: block;
 }
