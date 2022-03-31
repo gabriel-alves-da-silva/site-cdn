@@ -1,59 +1,35 @@
-@charset "UTF-8";
 *{
-    margin: 0%
+    margin: 0%;
+    padding: 0%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
-
 :root{
-    ---fonnt-padrao: 'Hubballi', arial;
-    ---cor-letra: #ff9100;
+    ---cor1: #F2B705;
 }
 body{
-    background-image: linear-gradient(to bottom, black, darkred);
+    background-image: linear-gradient(to bottom, darkred, black) ;
     background-attachment: fixed;
 }
+
 header{
     background-color: black;
 }
-header > img{ 
-    display: block;
-    margin: auto;
-    
+
+ header > nav > a{
+    text-decoration: none;
+    color: var(---cor1);
+    font-variant: small-caps;
+    padding-right: 8px;
 }
 header > h1{
-    font-variant: small-caps;
-    color: var(---cor-letra);
     text-align: center;
-}
-.quadro{
-    display: inline-block;
-    padding-right: 8px;
-    
-    
-}
-.imagem{
-    height: 200px;
-    width: 320px;
-}
-span{
-    color: var(---cor-letra);
-    text-align: left;
-    
-}
-.bloco{
-    text-align: center;
-    margin-top: 15px;
-}
-nav > a{
-    text-decoration: none;
-    color: var(---cor-letra);
-    padding-right: 3px;
+    color: var(---cor1);
     font-variant: small-caps;
+}
+#logo{
+    text-align: center;
 }
 
-nav > a:hover{
-    background-color: rgba(255, 255, 255, 0.172);
-    border-radius: 8px;
-    color: #f2ff00;
+.quadros{
+    display: inline-block;
+    margin-top: 10px;
 }
-.comprar
